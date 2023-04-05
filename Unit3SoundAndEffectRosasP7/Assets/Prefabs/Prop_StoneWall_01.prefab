@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7187572397785473110}
   - component: {fileID: 9160203522721755570}
   - component: {fileID: 4568868172655383487}
+  - component: {fileID: 274000542}
   m_Layer: 0
   m_Name: Prop_StoneWall_01
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,8 +62,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.5645267, z: 6.5530033}
+  m_Center: {x: 0, y: 0.28226346, z: -0.43213892}
+--- !u!114 &274000542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3024474770425211475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42fd35b0ed180b46b3a89e85d4cc69a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5495459847013845532
 GameObject:
   m_ObjectHideFlags: 0
